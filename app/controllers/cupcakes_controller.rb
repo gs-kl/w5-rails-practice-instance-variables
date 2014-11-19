@@ -12,10 +12,10 @@ class CupcakesController < ApplicationController
   end
 
   def maple_bacon
-
+    @sizes = ["s", "m", "l", "xl"]
   end
 
   def red_velvet
-
+    @ingredients = [["flour","some"],["sugar","a lot"]]
   end
 end
